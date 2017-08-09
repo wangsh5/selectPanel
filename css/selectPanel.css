@@ -1,0 +1,70 @@
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	border:0;
+	padding:0;
+	font-style:normal;
+	font-family: "Helvetica Neue" !important;
+}
+html,body {
+	-webkit-touch-callout:none;
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	-webkit-user-select:none;
+	font-size:16px;
+}
+li{list-style:none;}
+.container{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	overflow: hidden;
+	color: #222;
+	background-color: #f8f8f8;
+	z-index: 999999;
+}
+.selectList{ 
+	padding-left: 0.75rem;
+	background: #fff;
+	overflow-y: auto;
+	height: 100%;
+	-webkit-overflow-scrolling : touch;
+	-webkit-transform: translate3d(0,0,0);
+}
+.selectList li{
+	display:flex; 
+	display:-webkit-flex;
+	padding-left:0;
+	padding-right:0.75rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+.itemName{
+	flex:1;
+}
+.nav{
+	padding:0.9375rem 0.75rem;
+	background:#eee;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.iconImg {
+	margin-top:1rem;
+}
+.closeDiv{
+	position:absolute;
+	font-size:1.2rem;
+	color:#ccc;
+	right: 0.75rem;
+}
+.chanageList>em{
+	margin:0 3px;
+}

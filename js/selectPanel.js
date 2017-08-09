@@ -35,7 +35,7 @@
 			}
 			html+="<span class='closeDiv'>&times;</span>"
 			html+="</header>"
-			+"<ul class='tpList'>";
+			+"<ul class='selectList'>";
 			for(var j=0;j<this.list.length;j++){
 				html+="<li>"
 				+"<span class='itemName' data-index='"+j+"'>"+this.list[j].name+"</span>";
