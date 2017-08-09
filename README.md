@@ -13,6 +13,6 @@
   $(ele).showPanel({
 		data:data,//需渲染的数据，
 		codeName:code,//存储code返回值
-	})
+  })
 ```
 ##### 暂时只支持单选并且选到最末级
